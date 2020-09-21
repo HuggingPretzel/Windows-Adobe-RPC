@@ -8,4 +8,4 @@ Currently only supports Adobe After Effects on Windows
 Mac support soon
 
 ## Features
-While having the application the application open and pressing start, it will automatically check if you have After Effects open and updates your Discord Prescence Accordingly<img src="https://raw.githubusercontent.com/daniel0294/Windows-Adobe-RPC/master/rmassets/rpcexample.png" align="center" height="204" width="256"/>
+While having the application the application open and pressing start, it will automatically check if you have After Effects open and updates your Discord Prescence Accordingly<img src="https://raw.githubusercontent.com/daniel0294/Windows-Adobe-RPC/master/rmassets/rpcexample.PNG" align="center" height="204" width="256"/>
