@@ -7,7 +7,7 @@ This is my version of Discord Rich Prescene for Adobe apps inspired by [smoke/ad
 
 Written in Java using the [Discord RPC](https://github.com/Vatuu/discord-rpc) library.
 
-Currently only supports Adobe After Effects on Windows
+Currently only supports Adobe After Effects on Windows  
 Mac support soon
 
 ## Features
