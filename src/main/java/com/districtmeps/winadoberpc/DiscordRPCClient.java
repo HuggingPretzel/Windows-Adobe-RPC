@@ -134,7 +134,7 @@ public class DiscordRPCClient {
         }));
 
         outText.setLineWrap(true);
-        outText.setText(outText.getText() + "\nThank you for using my After Effects Discord RPC Client.\nTo use the client just press StartRPC and it will automatically check if AE is open and update on its own.\n\nGithub Source: \nIf you any questions or issues please contact me on discord *Danboi#1962*");
+        outText.setText(outText.getText() + "\nThank you for using my After Effects Discord RPC Client.\nTo use the client just press StartRPC and it will automatically check if AE is open and update on its own.\n\nGithub Source: https://github.com/daniel0294/Windows-Adobe-RPC\n\nIf you any questions or issues please contact me on discord *Danboi#1962*");
 
         System.out.println("Running callbacks...");
         outText.setText(outText.getText() + "\nRunning callbacks..");
@@ -171,9 +171,14 @@ public class DiscordRPCClient {
 
                         // System.out.println(title);
                     } else {
-                        updateRPC(newAe);
-                        if(showUpdates) outText.setText(outText.getText() + "\nUpdating RPC 2");
-                        ae = newAe;
+                        String part2 = ae.seperateWindowTitle()[1];
+
+                        if(!(part2 + " *").equals(newAe.seperateWindowTitle()[1])){
+                            updateRPC(newAe);
+                            if(showUpdates) outText.setText(outText.getText() + "\nUpdating RPC 2");
+                            ae = newAe;
+                        }
+                        
                         // System.out.println(ae.returnAll() + "\n" + newAe.returnAll() + "\n\n");
                     }
                       
