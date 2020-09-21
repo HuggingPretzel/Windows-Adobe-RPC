@@ -4,6 +4,7 @@
 Discord RichPrescence for Adobe After Effects
 
 This is my version of Discord Rich Prescene for Adobe apps inspired by [smoke/adobe_rpc](https://github.com/smokes/adobe-rpc)
+
 Currently only supports Adobe After Effects on Windows
 Mac support soon
 
