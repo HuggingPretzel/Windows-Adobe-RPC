@@ -1,3 +1,6 @@
+# Notice
+This project has be archived since Discord changed the way RPC is handled.
+
 <img src="https://raw.githubusercontent.com/daniel0294/Windows-Adobe-RPC/master/rmassets/aerpclogo.png" align="right" height="256" width="256"/>
 
 # Windows-Adobe-RPC
